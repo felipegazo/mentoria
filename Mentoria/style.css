@@ -1,0 +1,207 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  background: #E5E5E5;
+}
+.bg {
+  background: #535971;
+  width: 100%;
+  height: 436px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+  width: 875px;
+}
+
+header h1 {
+  margin-top: 145px;
+  color: #FFF;
+  font-size: 48px;
+  text-decoration: none;
+}
+
+header p {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 58px;
+
+}
+
+.separator {
+  width: auto;
+  height: 1px;
+  background: #E6E6F0;
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  color: #535971;
+
+}
+
+.wrapper {
+  width: 750px;
+  height: 100%;
+  background: #FFF;
+  padding: 64px;
+  border-radius: 15px 15px 0px 0px;
+  border-color: #000;
+  border: 1px solid;
+}
+
+.names {
+  display: flex;
+  width: 600px;
+}
+
+
+label {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #4E4958;
+}
+
+label span {
+  color: #C1BCCC;
+  font-size: 12px;
+  margin-bottom: 8px;
+  
+}
+
+.names input {
+  width: 351px;
+  height: 56px;
+  margin: 8px 22px 16px 0px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  padding: 0px 12px 0px 12px;
+}
+
+h3 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  color: #535971;
+
+}
+.mentorias {
+  display: block;
+}
+
+.mentor {
+  margin-top: 32px;
+}
+
+.horarios {
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+.prim-ment {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.data-1 {
+  margin-right: 32px;
+  width: 100%;
+
+}
+
+.dasate1 {
+  display: flex;
+  gap: 40px;
+}
+
+.das1 {
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+.ate1 {
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+.seg-ment {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.data-2 {
+  margin-right: 32px;
+  width: 100%;
+
+}
+
+.dasate2 {
+  display: flex;
+  gap: 40px;
+}
+
+.das2 {
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+.ate2 {
+  width: 100%;
+  margin-top: 5px;
+
+}
+
+footer {
+  background: #535971;
+  color: #FFF;
+  width: 880px;
+  height: 160px;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+footer input {
+  font-family: "Staatliches", sans-serif;
+  background: #FF5374;
+  width: 600px;
+  height: 55px;
+  border: 0;
+  color: #FFF;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+footer input:hover {
+  background: #d74562;
+  cursor: pointer;
+}
+
+.ment2 {
+  margin-top: 25px;
+}
